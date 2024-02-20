@@ -1,7 +1,6 @@
 const Kafka = require('node-rdkafka');
 const { Pool } = require('pg');
 const fs = require('fs');
-const v8 = require('v8');
 const TOPIC_NAME = 'aiven_kafka_demo';
 const host = "data-pipeline-test-dvd-rental-pg-yipintsoi-63b0.a.aivencloud.com"
 const port = 22957
